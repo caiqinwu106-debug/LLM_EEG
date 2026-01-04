@@ -19,9 +19,6 @@
 通过滑动生成图像。
 训练一个mlp模型，将语义嵌入映射到滑行嵌入空间，生成图像。python training/EEG2Glide.pypython training/generator.py
 
-你可以直接生成使用我们论文中使用权重的图像：
-
-python training/pretrained_generator.py --subject 1
 评估结果。
 计算指标。python evaluation/ClipScore.pypython evaluation/InceptionScore.pypython evaluation/SSIM.py
 
